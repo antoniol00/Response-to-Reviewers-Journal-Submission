@@ -1,0 +1,78 @@
+\documentclass{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage[most]{tcolorbox}
+\usepackage{lipsum}
+\usepackage{hyperref}
+
+
+\newcommand{\AuthorName}{Your Name}
+\newcommand{\AuthorAffiliation}{Your Institution Name\\Your Department or Research Group\\City, Postal Code, Country}
+\newcommand{\EditorName}{Editor's Full Name}
+\newcommand{\EditorAffiliation}{Editor\\Journal Title\\Editor's Institution, Country}
+\newcommand{\ManuscriptTitle}{Title of Your Manuscript}
+\newcommand{\JournalName}{Name of the Journal}
+
+% === HEADER SETTINGS ===
+\signature{\AuthorName\\Corresponding Author}
+\address{\AuthorAffiliation}
+\date{\today}
+
+\begin{document}
+
+\begin{letter}{\EditorName, \EditorAffiliation}
+
+\opening{Dear \EditorName,}
+
+We would like to thank you and the reviewers for your time and thoughtful comments regarding our manuscript entitled \textit{``\ManuscriptTitle"} submitted to \textit{\JournalName}. The feedback has helped us significantly improve the clarity and quality of our work. Please find below our point-by-point responses to each reviewer's comments, along with explanations of how we revised the manuscript accordingly.
+
+\vspace{0.5cm}
+% -------------------------
+\textbf{Response to Reviewer 1:}
+\begin{enumerate}[label=1.\arabic*]
+
+\item \textbf{Reviewer comment:} \textit{[Insert reviewer comment 1.]}
+    \begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,title=\textbf{Response}]
+    [Insert your response here.]
+    \end{tcolorbox}
+
+\item \textbf{Reviewer comment:} \textit{[Insert reviewer comment 2.]}
+    \begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,title=\textbf{Response}]
+    [Insert your response here.]
+    \end{tcolorbox}
+
+% Add more comments as needed
+
+\end{enumerate}
+
+\vspace{0.5cm}
+% -------------------------
+\textbf{Response to Reviewer 2:}
+\begin{enumerate}[label=2.\arabic*]
+
+\item \textbf{Reviewer comment:} \textit{[Insert reviewer comment 1.]}
+    \begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,title=\textbf{Response}]
+    [Insert your response here.]
+    \end{tcolorbox}
+
+\item \textbf{Reviewer comment:} \textit{[Insert reviewer comment 2.]}
+    \begin{tcolorbox}[colback=gray!5!white,colframe=gray!75!black,title=\textbf{Response}]
+    [Insert your response here.]
+    \end{tcolorbox}
+
+% Add more comments as needed
+
+% -------------------------
+% \textbf{Response to Reviewer 3:}
+% ...
+
+\end{enumerate}
+
+\vspace{0.5cm}
+We hope that our revised manuscript addresses all the concerns and meets the standards for publication in \JournalName. Please do not hesitate to contact us if any further information or clarification is needed.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}
